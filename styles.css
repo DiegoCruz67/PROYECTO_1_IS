@@ -66,7 +66,10 @@ main > h1:first-of-type {
   text-align: center;
   margin-bottom: 4px;
 }
-
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
 .tres-fotos {
     display: flex;
     justify-content: space-between;
