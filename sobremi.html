@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sobre Mí — Diego Andreé de la Cruz Reyes</title>
+  <link rel="stylesheet" href="styles.css"/>
+  <style>
+  
+ .skills{
+    margin-top: 20px;
+}
+
+.skill{
+    margin-bottom: 20px;
+}
+
+.skill-top{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #1e3a5f;
+}
+
+.barra{
+    width: 100%;
+    height: 14px;
+    background: #dbeafe;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.progreso{
+    height: 100%;
+    background: #1e3a5f;
+    border-radius: 20px;
+}
+
+/* PORCENTAJES */
+.html{ width: 65%; }
+.css{ width: 65%; }
+.js{ width: 30%; }
+.diseño{ width: 70%; }
+.creatividad{ width: 85%; }
+.equipo{ width: 50%; }
+.multimedia{ width: 75%; }
+
+
+.foto-perfil-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 28px auto 8px;
+}
+
+.foto-label{
+    font-size: 0.82rem;
+    color: #6b7280;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    margin-bottom: 10px;
+}
+
+.foto-circulo{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #d4a017;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+}
+
+.foto-circulo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.multimedia{ width: 75%; }
+
+.cards-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.card-vida {
+    background: #ffffff;
+    border-radius: 8px;
+    padding: 24px 20px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(30,58,95,0.10);
+    border-top: 3px solid #2563a8;
+}
+
+.card-ico {
+    font-size: 2rem;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.card-vida h4 {
+    color: #1e3a5f;
+    margin-bottom: 8px;
+    font-size: 1rem;
+}
+
+.card-vida p {
+    color: #374151;
+    font-size: 0.9rem;
+    line-height: 1.6;
+    margin: 0;
+}
+
+@media (max-width: 600px) {
+    .cards-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+    
+  </style>
+</head>
+<body>
+
+<div class="foto-perfil-wrapper">
+
+    <span class="foto-label">Foto de Perfil</span>
+
+    <div class="foto-circulo">
+        <img src="WhatsApp Image 2026-04-28 at 18.38.13.jpeg" alt="Perfil">
+    </div>
+
+</div>
+
+  <footer id="footer-portafolio">
+ 
+  <div class="footer-inner">
+ 
+    <div class="footer-col-left">
+      <p class="footer-name">Diego Andreé de la Cruz Reyes</p>
+      <span class="footer-uni">Universidad Mariano Gálvez de Guatemala</span>
+      <span class="footer-badge">Semestre 2026</span>
+    </div>
+ 
+    <div class="footer-col-center">
+      <div class="footer-logo-circle">D</div>
+      <span class="footer-tagline">Portafolio Académico</span>
+    </div>
+ 
+    <div class="footer-col-right">
+      <a href="index.html">Inicio</a>
+      <a href="sobremi.html">Sobre mí</a>
+      <a href="proyectos.html">Proyectos</a>
+      <a href="habilidades.html">Habilidades</a>
+      <a href="contacto.html">Contacto</a>
+    </div>
+ 
+  </div>
+ 
+  <hr class="footer-divider"/>
+ 
+  <div class="footer-bottom">
+    <p class="footer-copy">Diego Andreé de la Cruz Reyes &nbsp;·&nbsp; Universidad Mariano Gálvez de Guatemala</p>
+    <span class="footer-año">2026</span>
+  </div>
+ 
+</footer>
+
+
+  <h1>Sobre Mí</h1>
+
+  <h2>Datos Generales</h2>
+  <table>
+    <tbody>
+      <tr><th>Nombre completo</th><td>Diego Andreé de la Cruz Reyes</td></tr>
+      <tr><th>Edad</th><td>18 años</td></tr>
+      <tr><th>Universidad</th><td>Universidad Mariano Gálvez de Guatemala</td></tr>
+      <tr><th>Semestre</th><td>2026 — Primer año</td></tr>
+      <tr><th>Descripción</th><td>Joven universitario apasionado por aprender, vivir nuevas experiencias y disfrutar cada etapa de la vida rodeado de buena gente.</td></tr>
+    </tbody>
+  </table>
+
+  <h2>¿Quién soy?</h2>
+  <p>
+    Soy un joven de <strong>18 años</strong> con mucha energía y ganas de vivir. Me encuentro cursando mi primer año universitario, lo cual representa para mí un nuevo capítulo lleno de retos, aprendizajes y oportunidades. Me considero una persona <strong>sociable, curiosa y abierta</strong> a todo tipo de experiencias.
+  </p>
+  <p>
+    Mi vida fuera del aula es igual de activa: disfruto estar con mis amigos, compartir momentos especiales en familia y siempre estoy listo para el siguiente plan. Para mí, lo más importante es <strong>vivir plenamente cada etapa</strong>, rodeado de las personas que quiero.
+  </p>
+
+  <blockquote>
+    <p>"La vida es demasiado corta para aburrirse. Prefiero vivirla con intensidad, con buena música, buenas personas y muchos recuerdos que contar."</p>
+  </blockquote>
+
+<h2>Mi vida</h2>
+
+<div class="cards-grid">
+
+    <div class="card-vida">
+        <span class="card-ico">🎵</span>
+        <h4>Música</h4>
+        <p>
+            La música es parte de mi día a día. Me ayuda a concentrarme,
+            motivarme y disfrutar cada momento con mejor energía.
+        </p>
+    </div>
+
+    <div class="card-vida">
+        <span class="card-ico">👥</span>
+        <h4>Amistades</h4>
+        <p>
+            Disfruto compartir tiempo con amigos, salir, conocer lugares
+            nuevos y crear recuerdos inolvidables.
+        </p>
+    </div>
+
+    <div class="card-vida">
+        <span class="card-ico">🎮</span>
+        <h4>Entretenimiento</h4>
+        <p>
+            Los videojuegos y las series son parte de mis hobbies favoritos
+            para relajarme y divertirme.
+        </p>
+    </div>
+
+    <div class="card-vida">
+        <span class="card-ico">✈️</span>
+        <h4>Explorar</h4>
+        <p>
+            Me gusta descubrir nuevos lugares, probar cosas diferentes
+            y vivir experiencias nuevas constantemente.
+        </p>
+    </div>
+
+</div>
+
+<h2>Habilidades</h2>
+
+<div class="skills">
+
+    <div class="skill">
+        <div class="skill-top">
+            <span>HTML</span>
+            <span>65%</span>
+        </div>
+        <div class="barra">
+            <div class="progreso html"></div>
+        </div>
+    </div>
+
+    <div class="skill">
+        <div class="skill-top">
+            <span>CSS</span>
+            <span>65%</span>
+        </div>
+        <div class="barra">
+            <div class="progreso css"></div>
+        </div>
+    </div>
+
+    <div class="skill">
+        <div class="skill-top">
+            <span>JavaScript</span>
+            <span>30%</span>
+        </div>
+        <div class="barra">
+            <div class="progreso js"></div>
+        </div>
+    </div>
+
+    <div class="skill">
+        <div class="skill-top">
+            <span>Diseño Web</span>
+            <span>70%</span>
+        </div>
+        <div class="barra">
+            <div class="progreso diseño"></div>
+        </div>
+    </div>
+
+    <div class="skill">
+        <div class="skill-top">
+            <span>Creatividad</span>
+            <span>85%</span>
+        </div>
+        <div class="barra">
+            <div class="progreso creatividad"></div>
+        </div>
+    </div>
+
+    <div class="skill">
+        <div class="skill-top">
+            <span>Trabajo en equipo</span>
+            <span>50%</span>
+        </div>
+        <div class="barra">
+            <div class="progreso equipo"></div>
+        </div>
+    </div>
+
+    <div class="skill">
+        <div class="skill-top">
+            <span>Edición Multimedia</span>
+            <span>75%</span>
+        </div>
+        <div class="barra">
+            <div class="progreso multimedia"></div>
+        </div>
+    </div>
+
+</div>
+
+
+  
+
+  <script>
+    const circulo = document.getElementById('foto-circulo');
+    const input   = document.getElementById('file-input');
+    const img     = document.getElementById('preview-img');
+    circulo.addEventListener('click', () => input.click());
+    input.addEventListener('change', e => {
+      const file = e.target.files[0];
+      if (!file) return;
+      img.src = URL.createObjectURL(file);
+      img.style.display = 'block';
+      circulo.querySelector('.ico').style.display = 'none';
+      circulo.querySelector('.texto-subir').style.display = 'none';
+    });
+  </script>
+
+
+</body>
+</html>
